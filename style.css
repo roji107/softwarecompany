@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.55)), url(background.webp); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5s ease;
+    font-weight: 900    ;
+}
+
+
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: black;
+    border-radius: 20px;
+
+}
+.main
+{
+    max-width: 1200px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.about-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-title h1{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+
+}
+
+.about-title p{
+    
+        color: #fff;
+        font-size: 20px;
+        border: 3px solid white;
+    
+    }
+.services-title{
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .services-title h1{
+        color: #fff;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+    }
+
+  .services-title h5{
+    color: #fff;
+    font-size: 20px;
+  border:3px solid #fff;
+    
+  }
